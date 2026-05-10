@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/iali-11/coderco-custom#readme",
   "dependencies": {
-    "@actions/core": "^3.0.1",
     "@actions/github": "^9.1.1"
   },
   "devDependencies": {
