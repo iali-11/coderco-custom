@@ -1,9 +1,13 @@
-const core = require('@actions/core');
+function hello() { return "Hello, world!"; }
 
-try {
-    const nameToGreet = core.getInput('who-to-greet');
-    console.log(`Hello', ${nameToGreet}!`);
-    core.setOutput('time', new Date().toTimeString());
-} catch (error) {
-    core.setFailed(error.message);
-}
+console.log(hello());
+
+// const core = require('@actions/core');
+
+// try {
+//     const nameToGreet = core.getInput('who-to-greet');
+//     console.log(`Hello', ${nameToGreet}!`);
+//     core.setOutput('time', new Date().toTimeString());
+// } catch (error) {
+//     core.setFailed(error.message);
+// }
